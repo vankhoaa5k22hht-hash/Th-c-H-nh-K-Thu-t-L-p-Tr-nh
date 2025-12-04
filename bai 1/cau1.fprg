@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value="b&#224;i 1"/>
+        <attribute name="authors" value="PV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-03 10:46:22 SA"/>
+        <attribute name="created" value="UFY7REVTS1RPUC1NUjFJOEpFOzIwMjUtMTAtMDE7MDI6MDg6MjMgUE07MjQ5OQ=="/>
+        <attribute name="edited" value="QWRtaW47IEFETUlOLVBDOyAyMDI1LTEyLTAzOyAxMDo0NjoyMiBTQTsgMjQwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, h, s" type="Real" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p c&#7841;nh &#273;&#225;y c&#7911;a tam gi&#225;c&quot;"/>
+            <input variable="a"/>
+            <output expression="&quot;Nh&#7853;p chi&#7873;u cao c&#7911;a tam gi&#225;c&quot;"/>
+            <input variable="h"/>
+            <assign variable="s" expression="(a*h)/2"/>
+            <output expression="&quot;Di&#7879;n t&#237;ch tam gi&#225;c l&#224;&quot; &amp; s"/>
+        </body>
+    </function>
+</flowgorithm>

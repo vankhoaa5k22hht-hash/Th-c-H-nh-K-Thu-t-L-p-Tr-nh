@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value="b&#224;i 2 ch&#432;&#417;ng 1"/>
+        <attribute name="authors" value="PV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-03 10:45:14 SA"/>
+        <attribute name="created" value="UFY7REVTS1RPUC1NUjFJOEpFOzIwMjUtMTEtMjY7MDE6Mjc6MzAgUE07MjUwNQ=="/>
+        <attribute name="edited" value="QWRtaW47IEFETUlOLVBDOyAyMDI1LTEyLTAzOyAxMDo0NToxNCBTQTsgMjQwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vi&#234;n Tr&#7847;n V&#259;n &#272;&#7913;c&quot;"/>
+            <output expression="&quot;MSV245752021610099&quot;"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p s&#7889; nguy&#234;n n&quot;"/>
+            <input variable="n"/>
+            <if expression="n&gt;=4">
+                <then>
+                    <declare name="i" type="Integer" array="False" size=""/>
+                    <assign variable="i" expression="2"/>
+                    <while expression="n%i!=0"/>
+                    <if expression="n==i">
+                        <then>
+                            <output expression="&quot;l&#224; s&#7889; nguy&#234;n t&#7889;&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;kh&#244;ng l&#224; s&#7889; nguy&#234;n t&#7889;&quot;"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="n&lt;2">
+                        <then>
+                            <output expression="&quot;kh&#244;ng ph&#7843;i s&#7889; nguy&#234;n t&#7889;&quot;"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;l&#224; s&#7889; nguy&#234;n t&#7889;&quot;"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
